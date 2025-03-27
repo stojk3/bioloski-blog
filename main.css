@@ -4484,7 +4484,7 @@ input, select, textarea {
 		}
 
 /* Nav Panel */
-
+/*
 	#navPanelToggle {
 		text-decoration: none;
 		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
@@ -4687,7 +4687,7 @@ input, select, textarea {
 		}
 
 	}
-
+*/
 	/* Custom CSS */
 	/* Language switcher */
 	.language {
