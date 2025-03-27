@@ -4687,3 +4687,38 @@ input, select, textarea {
 		}
 
 	}
+
+	/* Custom CSS */
+	/* Language switcher */
+	.language {
+		position: absolute;
+		top: 16px;
+    	left: 24px;
+		z-index: 9999;
+	}
+
+	.language a {
+		border-bottom: none;
+	}
+
+	.language img,
+	.language img:hover {
+		opacity: 0.75;
+		cursor: pointer;
+		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
+	}
+
+	.language img:hover {
+		opacity: 1;
+	}
+
+	@media screen and (max-width: 980px) {
+		.language {
+			top: 10px;
+			left: 18px;
+		}
+
+		.language img {
+			height: 32px;
+		}
+	}
