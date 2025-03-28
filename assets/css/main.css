@@ -4721,4 +4721,10 @@ input, select, textarea {
 		.language img {
 			height: 32px;
 		}
+
+		#intro {
+			flex-flow: row wrap;
+		}
 	}
+
+		
